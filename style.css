@@ -1,0 +1,31 @@
+.container{
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.box1{
+    background-color: purple;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-family:arial;
+    font-size:large;
+    border-radius: 150px;
+    text-align:center;
+}
+#h{
+    color:aqua;
+    font-family:verdana;
+    font-size:large;
+
+}
+.h1{
+    color:cadetblue;
+    font-family:verdana;
+    font-size:xx-large;
+}
+#body{
+    background-color: lightgray;
+    text-align:center;
+    
+}

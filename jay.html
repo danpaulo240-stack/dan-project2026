@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <h1>registration form</h1>
+    
 </head>
-<body>
-     <h1>registration form</h1>
+<body id="body">
+     <h1 class="h1">registration form</h1>
      <label for="name">Name:</label>
      <input type="text" id="name" name="name">
      <br>
@@ -18,5 +19,15 @@
      <input type="password" id="password" name="password">
      <br>
      <input type="submit" value="Register">
+
+     <div class="container">
+<div class="box1">
+    <h4 id="h">registration information</h4>
+    <ul>
+        <li>Name: <span id="display-name"></span></li>
+        <li>Email: <span id="display-email"></span></li>
+    </ul>
+</div>
+     </div>
 </body>
 </html>
